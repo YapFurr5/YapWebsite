@@ -1,0 +1,25 @@
+<title>YapFurr - [LOST MEDIA] 3 fous sur gartic phone</title>
+<style>
+    body {
+        background-color: rgb(44, 44, 44);
+        h1 {
+            color: rgb(255, 255, 255);
+        }
+        p {
+            color: rgb(255, 255, 255);
+        }
+        button {
+            background-color: rgb(70, 70, 70);
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+        }
+    }
+</style>
+<h1 style="text-align: center;">Titre.</h1>
+<p style="text-align: center;">Description.</p>
+<center>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/kfyOFIspRyw?si=Sl3UvCbuIOoa8mRY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</center>
+<br><br>
+<button onclick="alert('Cette video n'est pas disponible en HTML.')">Voire video en HTML</button>
+<button onclick="window.location.href='../../../video.html'">Revenir au video</button>
